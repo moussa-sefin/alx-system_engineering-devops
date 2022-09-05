@@ -1,0 +1,2 @@
+#!/bin/bash
+ls sample_directory/ -Artls | tail -1

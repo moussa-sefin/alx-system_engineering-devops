@@ -1,0 +1,12 @@
+total 10
+1 -rwxr-xr-x 1 Mansa 197121 32 Sep  5 17:06 0-hello_world
+1 -rwxr-xr-x 1 Mansa 197121 28 Sep  5 16:49 1-confused_smiley
+1 -rwxr-xr-x 1 Mansa 197121 28 Sep  5 16:49 2-hellofile
+1 -rwxr-xr-x 1 Mansa 197121 39 Sep  5 16:49 3-twofiles
+1 -rwxr-xr-x 1 Mansa 197121 29 Sep  5 17:23 4-lastlines
+1 -rwxr-xr-x 1 Mansa 197121 33 Sep  5 17:25 5-firstlines
+1 -rwxr-xr-x 1 Mansa 197121 33 Sep  5 17:40 6-third_line
+1 -rwxr-xr-x 1 Mansa 197121 79 Sep  5 18:01 7-file
+1 -rwxr-xr-x 1 Mansa 197121 36 Sep  5 20:32 8-cwd_state
+1 -rw-r--r-- 1 Mansa 197121 47 Sep  5 17:41 iacta
+0 -rw-r--r-- 1 Mansa 197121  0 Sep  5 20:32 ls_cwd_content

@@ -1,0 +1,2 @@
+#!/bin/bash
+tail -2 test.txt | sed 's/cC//g'
