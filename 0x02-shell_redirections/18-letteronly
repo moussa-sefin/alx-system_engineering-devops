@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n '/^[a-zA-Z]/' /etc/ssh/sshd_config
+sed -i "^[a-z]" /etc/ssh/sshd_config
