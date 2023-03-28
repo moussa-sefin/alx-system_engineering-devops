@@ -1,22 +1,7 @@
 #!/usr/bin/env bash
-
-# Check if all required parameters are passed
-if [ $# -lt 4 ]; then
-	  echo "Usage: $0 PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
-	    exit 1
+# script to transfer file from client to server
+if [ "$#" -ne 4 ]; then
+    echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
+else
+    scp -i "$4" -o "StrictHostKeyChecking no" "$1" "$3@$2":~/
 fi
-
-# Extract parameters
-PATH_TO_FILE="$1"
-IP="$2"
-USERNAME="$3"
-PATH_TO_SSH_KEY="$4"
-
-# Transfer the file using SCP
-if scp -o StrictHostKeyChecking=no -i "$PATH_TO_SSH_KEY" "$PATH_TO_FILE" "$USERNAME@$IP:~"; then
-	  echo "File transferred successfully."
-  else
-	    echo "Error transferring file."
-fi
-
-
